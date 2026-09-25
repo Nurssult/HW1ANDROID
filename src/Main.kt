@@ -1,7 +1,15 @@
 fun main() {
-    val baseSalary = 5000
-    val bonusAmount = 1000
-    val totalSalary = baseSalary + bonusAmount
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
 
-    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = add(firstNumber, thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber + $thirdNumber = $anotherResult")
+}
+
+fun add(a: Int, b: Int): Int {
+    return a + b
 }
