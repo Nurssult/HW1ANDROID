@@ -1,9 +1,7 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val numberOfAdults = 20
-    val numberOfKids = 30
-    val total = numberOfAdults + numberOfKids
+    val baseSalary = 5000
+    val bonusAmount = 1000
+    val totalSalary = baseSalary + bonusAmount
 
-    println("The total party size is: $total")
+    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
 }
